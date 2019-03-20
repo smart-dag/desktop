@@ -20,3 +20,8 @@ npm install
 ```
 npm start
 ```
+
+
+如何使用桌面钱包，通过水龙头获得数字资产？
+
+https://github.com/smart-dag/docs/tree/master/use-desktop-wallet
