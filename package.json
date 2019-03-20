@@ -1,0 +1,24 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "use electron and webwallet to build desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smart-dag/desktop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smart-dag/desktop/issues"
+  },
+  "homepage": "https://github.com/smart-dag/desktop#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^4.1.0"
+  }
+}
