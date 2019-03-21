@@ -7,6 +7,12 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "start": "electron .",
+    "makemac": "electron-packager . 'wallet' --platform=darwin --arch=x64 --icon=app.icns --out=./dist --asar --app-version=0.0.1 --ignore=\"(dist|src|docs|.gitignore|LICENSE|README.md|webpack.config*|node_modules)\"",
+    "makewin": "electron-packager . 'wallet' --platform=win32 --arch=x64 --icon=app.ico --out=./dist --asar --app-version=0.0.1 --ignore=\"(dist|src|docs|.gitignore|LICENSE|README.md|webpack.config.js|node_modules)\"",
+    "makelinux": "electron-packager . 'wallet' --platform=linux --arch=x64 --icon=app.ico --out=./dist --asar --app-version=0.0.1 --ignore=\"(dist|src|docs|.gitignore|LICENSE|README.md|webpack.config.js|node_modules)\""
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/smart-dag/desktop.git"
