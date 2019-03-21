@@ -21,8 +21,14 @@ npm install
 npm start
 ```
 
-打包
+生成可执行文件
 
 ```
-electron-packager . 'wallet' --platform=win32 --arch=x64 --icon=icon.ico --out=./out --asar --app-version=0.0.1
+npm run makemac
+npm run makewin
+npm run makelinux
 ```
+
+如何使用桌面钱包，通过水龙头获得数字资产？
+
+https://github.com/smart-dag/docs/tree/master/use-desktop-wallet
